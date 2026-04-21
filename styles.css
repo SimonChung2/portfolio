@@ -88,7 +88,7 @@ nav a:active {
     margin-top: var(--nav-height);
     scroll-margin-top: var(--nav-height);
     background-color: var(--primary-color);
-    color: var(--secondary-text-color);
+    /* color: var(--secondary-text-color); */
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 10% 30% 20% 30% 10%;
@@ -96,6 +96,13 @@ nav a:active {
     align-items: center;
     font-family: var(--font-sans);
     box-shadow: 0 0 15px 0.5px rgba(0, 105, 137, 0.5);
+      min-height: 100vh;
+    background-image:
+    linear-gradient(rgba(0, 20, 50, 0.45), rgba(0, 20, 50, 0.45)),
+    url("./a_digital_abstract_abstract_digital_banner_showcas.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
