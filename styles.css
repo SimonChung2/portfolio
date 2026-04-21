@@ -97,8 +97,8 @@ nav a:active {
     font-family: var(--font-sans);
     box-shadow: 0 0 15px 0.5px rgba(0, 105, 137, 0.5);
     background-image:
-    linear-gradient(rgba(0, 20, 50, 0.45), rgba(0, 20, 50, 0.45)),
-    url("/images/hero_image.png");
+        linear-gradient(rgba(0, 20, 50, 0.45), rgba(0, 20, 50, 0.45)),
+        url("./images/hero_image.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -282,8 +282,8 @@ footer {
 /* MEDIA QUERIES */
 
 /* mobile */
-@media (min-width:768px){
-    :root{
+@media (min-width:768px) {
+    :root {
         --fs-h1: 2.25rem;
         --fs-h2: 2rem;
 
@@ -319,10 +319,10 @@ footer {
 
     #about img {
         border-radius: var(--about-img-dia);
-    }  
+    }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
 
     nav ul {
         justify-content: flex-start;
@@ -362,7 +362,7 @@ footer {
         max-width: none;
     }
 
-    article{
+    article {
         max-width: 25vw;
     }
 }
